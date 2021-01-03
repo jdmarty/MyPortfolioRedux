@@ -60,6 +60,9 @@ a {
   .self-description {
     font-size: 1.25em
   }
+  .tech-card {
+    display: block;
+  }
 }
 
 /* Shifted Row */
@@ -70,6 +73,13 @@ a {
 /* Tech Cards */
 .tech-card {
   box-shadow: 2px 4px 10px rgba(39, 39, 39, 0.533);
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .tech-card {
+    display: block;
+  }
 }
 
 /* Card Footers */
