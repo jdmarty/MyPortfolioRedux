@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  color: #f1f1f1;
+}
+
+a {
+  font-size: 24px;
+  font-family: "Raleway", "Roboto", sans-serif;
+}
+
+.scale-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.black-box {
+  padding: 24.2%;
+  font-size: 24px;
+  background-color: black;
+}
+
+.image-stack::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.image-stack__item--top {
+  float: left;
+  width: 75.7%;
+  margin-right: -100%;
+  padding-top: 6%;
+  padding-left: 24.4%;
+  position: relative;
+  z-index: 1;
+}
+
+.image-stack__item--bottom {
+  float: right;
+  width: 100%;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Link to Booswatch CDN for Solar Theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
+    <!-- Kit for fontawesome logos -->
+    <script src="https://kit.fontawesome.com/2122334227.js" crossorigin="anonymous"></script>
+    <!-- Link for google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dancing+Script&family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Internal link to fontawesome favicon -->
+    <link rel="icon" type="image/svg" href="./assets/Images/otter-regular.svg" />
+    <!-- Link to supplementary css file -->
+    <link rel="stylesheet" href='assets/global.css'>
+    <title>Joshua's Home Page</title>
+</head>
+<body>
+    <!-- Navbar containing brand logo and navigation links -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <!-- Brand logo -->
+        <a class="navbar-brand" href="#">
+            <i class="far fa-2x fa-otter"></i>
+        </a>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar menu collapsed on mobile -->
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto mr">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <main class="container-fluid text-center px-5">
+        <!-- Welcome Message -->
+        <div class="row py-5">
+            <div class="col-12">
+                <h1 class="display-4">Hi! I'm Josh. Welcome to my portfolio</h1>
+            </div>
+        </div>
+        <!-- Computer Display -->
+        <div class="row">
+            <div class="col-12">
+                <!-- Computer Image and screen -->
+                <div class="image-stack py-3">
+                    <!-- Screen overlay -->
+                    <div class="image-stack_item image-stack__item--top">
+                        <div class="black-box">
+                            <p>More stuff</p>
+                        </div>
+                    </div>
+                    <!-- Computer backround -->
+                    <div class="image-stack_item image-stack__item--bottom">
+                        <img src="./assets/Images/computer.svg" class="scale-img" alt="computer" role="presentation">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Self Description -->
+        <div class="row py-5">
+            <div class="col-12">
+                <h3>I am a full-stack web-developer passionate about building intuitive applications to make the web a less stressful place</h3>
+            </div>
+        </div>
+        <!-- Technologies -->
+        <div class="row py-5">
+            <div class="col-3">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary">
+                        <h5 class="card-title">Languages</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            HTML5<br>
+                            CSS3<br>
+                            JavaScript<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h5 class="card-title">Back-End Tools</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Node.js<br>
+                            Express.js<br>
+                            MySQL<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h5 class="card-title">Front-End Tools</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            React<br>
+                            Bootstreap<br>
+                            Bulma<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h5 class="card-title">Development Tools</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Github<br>
+                            VSCode<br>
+                            Heroku<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Scripts to run jquery, popper, and boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
