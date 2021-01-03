@@ -67,6 +67,11 @@ a {
   transform: translateY(-75px)
 }
 
+/* Tech Cards */
+.tech-card {
+  box-shadow: 2px 4px 10px rgba(39, 39, 39, 0.533);
+}
+
 /* Card Footers */
 .tech-card-footer {
   display: flex;
