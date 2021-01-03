@@ -61,3 +61,15 @@ a {
     font-size: 1.25em
   }
 }
+
+/* Shifted Row */
+.shifted-row {
+  transform: translateY(-75px)
+}
+
+/* Card Footers */
+.tech-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 15%;
+}
