@@ -3,21 +3,21 @@
   color: #f1f1f1;
 }
 
+/* Nav Links */
 a {
-  font-size: 24px;
+  font-size: 1.75em;
   font-family: "Raleway", "Roboto", sans-serif;
 }
 
+/* Computer Image Stacking */
 .scale-img {
   display: block;
   width: 100%;
-  height: auto;
 }
 
-.black-box {
-  padding: 24.2%;
-  font-size: 24px;
-  background-color: black;
+.screen-box {
+  box-sizing: content-box;
+  padding: 20.2% 0;
 }
 
 .image-stack::after {
@@ -39,4 +39,25 @@ a {
 .image-stack__item--bottom {
   float: right;
   width: 100%;
+}
+
+/* Computer Screen Content */
+.screen-text {
+  font-size: 1.5vw;
+}
+
+.screen-button {
+  font-size: 2vw;
+  border-radius: 5% 2%;
+}
+
+/* Self-Description */
+.self-description {
+  font-size: 1.75em
+}
+
+@media only screen and (max-width: 600px) {
+  .self-description {
+    font-size: 1.25em
+  }
 }
