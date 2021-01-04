@@ -11,8 +11,8 @@ a {
 
 /* Computer Image Stacking */
 .scale-img {
-  display: block;
   width: 100%;
+  height: auto;
 }
 
 .screen-box {
@@ -53,12 +53,12 @@ a {
 
 /* Self-Description */
 .self-description {
-  font-size: 1.75em
+  font-size: 1.75em;
 }
 
 @media only screen and (max-width: 600px) {
   .self-description {
-    font-size: 1.25em
+    font-size: 1.25em;
   }
   .tech-card {
     display: block;
@@ -67,7 +67,7 @@ a {
 
 /* Shifted Row */
 .shifted-row {
-  transform: translateY(-75px)
+  transform: translateY(-75px);
 }
 
 /* Tech Cards */
@@ -82,11 +82,52 @@ a {
   }
 }
 
-/* Card Footers */
 .tech-card-footer {
   display: flex;
   justify-content: space-between;
   padding: 17px 15%;
+}
+
+/* PROJECTS PAGE */
+/* Featured Panel */
+#featured {
+  border-radius: 15px;
+}
+
+/* Featured Image */
+#featured-image {
+  border-radius: 15px;
+  margin: 15px;
+}
+
+/* Featured Tech Buttons */
+#featured-tech-cont {
+  width: fit-content;
+  margin: 15px auto;
+  border-radius: 15px;
+}
+
+.featured-tech {
+  padding: 10px;
+  border: 1px solid #ccdcde;
+}
+
+.featured-link {
+  margin: 20px 5px;
+  padding: 10px;
+  width: 25%;
+  font-size: 1.25em;
+}
+
+/* Project Card */
+.project-card {
+  padding: 15px;
+}
+
+/* Project Card Image */
+.project-card-img {
+  width: 100%;
+  height: auto;
 }
 
 /* ==== ANIMATIONS ==== */
@@ -99,29 +140,50 @@ a {
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
 }
+
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Fade In and Up */
@@ -138,4 +200,14 @@ a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Grow */
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  box-shadow: -5px 5px 5px;
 }
