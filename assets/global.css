@@ -102,21 +102,24 @@ a {
 
 /* Featured Tech Buttons */
 #featured-tech-cont {
-  width: fit-content;
   margin: 15px auto;
-  border-radius: 15px;
+  font-size: 1.25em;
 }
 
 .featured-tech {
   padding: 10px;
+  margin: 12px;
+  text-align: center;
   border: 1px solid #ccdcde;
+  border-radius: 15px;
 }
 
 .featured-link {
   margin: 20px 5px;
   padding: 10px;
-  width: 25%;
+  min-width: 25%;
   font-size: 1.25em;
+  border-radius: 15px;
 }
 
 /* Project Card */

@@ -12,8 +12,8 @@ function renderHighlight(project) {
         $("#featured-tech-cont").append(techItem);
     });
     //links
-    $("#featured-deploy-link").attr("href", project.repoLink);
-    $("#featured-repo-link").attr("href", project.deployedLink);
+    $("#featured-repo-link").attr("href", project.repoLink);
+    $("#featured-deployed-link").attr("href", project.deployedLink);
 }
 
 function renderCards(projects) {
