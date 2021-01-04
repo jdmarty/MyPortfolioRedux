@@ -43,11 +43,11 @@
     <!-- Main content -->
     <main class="container-fluid px-0 px-lg-5">
         <!-- Welcome Message -->
-        <div class="row text-center py-3">
+        <header class="row text-center py-3">
             <div class="col-12">
                 <h1 class="display-4">Hi, I'm Josh! Welcome to my portfolio</h1>
             </div>
-        </div>
+        </header>
         <!-- Computer Display -->
         <div class="row text-center">
             <div class="col-12">
@@ -57,7 +57,7 @@
                     <div class="image-stack_item image-stack__item--top">
                         <div class="screen-box container bg-secondary fade-in">
                             <p class="screen-text text-white my-0 my-lg-2">My Projects</p>
-                            <button type="button" class="btn btn-primary screen-button">Check 'em Out!</button>
+                            <a href="/portfolio.html" class="btn btn-primary screen-button">Check 'em Out!</a>
                         </div>
                     </div>
                     <!-- Computer backround -->
@@ -68,109 +68,128 @@
             </div>
         </div>
         <!-- Self Description -->
-        <div class="row text-center py-5">
+        <section class="row text-center py-5">
             <div class="col-1 d-flex justify-content-center my-auto">
                 <i class="fab fa-3x fa-react"></i>
             </div>
-            <div class="col-10">
+            <article class="col-10">
                 <h3 class="self-description">I am a full-stack web developer passionate about building intuitive, feature rich applications</h3>
                 <p>Software is for everyone! That's why I build each of my projects to be a cleanly designed experience for both user and developer. </p>
-            </div>
+            </article>
             <div class="col-1 d-flex justify-content-center my-auto">
                 <i class="fab fa-3x fa-js-square"></i>
             </div>
-        </div>
+        </section>
         <!-- Qualifications -->
-        <div class="row text-center py-5 bg-secondary">
-            <div class="col-12 pb-5 pt-3">
+        <section class="row text-center py-5 bg-secondary">
+            <article class="col-12 pb-5 pt-3">
                 <h3>Full Stack Web Development Bootcamp Certificate - UC Irvine</h3>
                 <h4>Bachelor of Science in Chemical Engineering - Trine University</h4>
                 <a href="./assets/JoshuaMartyResume.pdf" download>Check out my resume!</a>
-            </div>
-        </div>
+            </article>
+        </section>
         <!-- Technologies -->
-        <div class="row text-center py-3 shifted-row">
+        <section class="row text-center pt-3 shifted-row">
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card my-3 tech-card" id="tech-card-1">
-                    <div class="card-header pb-0 bg-primary">
+                <article class="card my-3 tech-card" id="tech-card-1">
+                    <header class="card-header pb-0 bg-primary">
                         <h5 class="card-title">Languages</h5>
-                    </div>
-                    <div class="card-body">
+                    </header>
+                    <main class="card-body">
                         <p class="card-text">
                             HTML5<br>
                             CSS3<br>
                             JavaScript<br>
                             SQL<br>
                         </p>
-                    </div>
-                    <div class="card-footer tech-card-footer">
+                    </main>
+                    <footer class="card-footer tech-card-footer">
                         <i class="fab fa-lg fa-html5 mx-3"></i>
                         <i class="fab fa-lg fa-css3-alt mx-3"></i>
                         <i class="fab fa-lg fa-js-square mx-3"></i>
-                    </div>
-                </div>
+                    </footer>
+                </article>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card my-3 tech-card" id="tech-card-2">
-                    <div class="card-header pb-0 bg-primary">
+                <article class="card my-3 tech-card" id="tech-card-2">
+                    <header class="card-header pb-0 bg-primary">
+                        <h5 class="card-title">Front-End Tools</h5>
+                    </header>
+                    <main class="card-body">
+                        <p class="card-text">
+                            React<br>
+                            Bootstrap<br>
+                            Bulma<br>
+                            jQuery<br>
+                        </p>
+                    </main>
+                    <footer class="card-footer tech-card-footer">
+                        <i class="fab fa-lg fa-react mx-3"></i>
+                        <i class="fab fa-lg fa-bootstrap mx-3"></i>
+                        <i class="fab fa-lg fa-css3 mx-3"></i>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <article class="card my-3 tech-card" id="tech-card-3">
+                    <header class="card-header pb-0 bg-primary">
                         <h5 class="card-title">Back-End Tools</h5>
-                    </div>
-                    <div class="card-body">
+                    </header>
+                    <main class="card-body">
                         <p class="card-text">
                             Node.js<br>
                             Express.js<br>
                             MySQL<br>
                             Sequelize ORM<br>
                         </p>
-                    </div>
-                    <div class="card-footer tech-card-footer">
-                        <i class="fab fa-lg fa-node mx-3"></i>
+                    </main>
+                    <footer class="card-footer tech-card-footer">
+                        a<i class="fab fa-lg fa-node mx-3"></i>
                         <i class="fad fa-lg fa-database mx-3"></i>
                         <i class="fas fa-lg fa-router mx-3"></i>
-                    </div>
-                </div>
+                    </footer>
+                </article>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card my-3 tech-card" id="tech-card-3">
-                    <div class="card-header pb-0 bg-primary">
-                        <h5 class="card-title">Front-End Tools</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">
-                            React<br>
-                            Bootstrap<br>
-                            jQuery<br>
-                            <br>
-                        </p>
-                    </div>
-                    <div class="card-footer tech-card-footer">
-                        <i class="fab fa-lg fa-react mx-3"></i>
-                        <i class="fab fa-lg fa-bootstrap mx-3"></i>
-                        <i class="fab fa-lg fa-css3 mx-3"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card my-3 tech-card" id="tech-card-4">
-                    <div class="card-header pb-0 bg-primary">
+                <article class="card my-3 tech-card" id="tech-card-4">
+                    <header class="card-header pb-0 bg-primary">
                         <h5 class="card-title">Development Tools</h5>
-                    </div>
-                    <div class="card-body">
+                    </header>
+                    <main class="card-body">
                         <p class="card-text">
                             Github<br>
+                            Gitlab<br>
                             VSCode<br>
                             Heroku<br>
-                            <br>
                         </p>
-                    </div>
-                    <div class="card-footer tech-card-footer">
+                    </main>
+                    <footer class="card-footer tech-card-footer">
                         <i class="fab fa-lg fa-github mx-3"></i>
                         <i class="fas fa-lg fa-code-merge mx-3"></i>
                         <i class="fad fa-lg fa-layer-group mx-3"></i>
-                    </div>
+                    </footer>
+                </article>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="row text-center pb-4">
+            <div class="col-12">
+                <h2 class="display-4">Let's work together!</h2>
+                <p class="lead">Contact me through any of the methods below and let's start building!</p>
+                <div class="bg-secondary d-flex justify-content-around contact-box">
+                    <a href="https://www.linkedin.com/in/joshua-marty-22a544a2/" target="_blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank">
+                        <i class="fab fa-2x fa-github"></i>
+                    </a>
+                    <a href="mailto: joshua.dmarty@gmail.com">
+                        <i class="fas fa-2x fa-envelope"></i>
+                    </a>
                 </div>
             </div>
-        </div>
+
+        </section>
     </main>
 
     <!-- My Animation Scripts -->

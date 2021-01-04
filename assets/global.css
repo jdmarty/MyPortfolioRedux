@@ -43,12 +43,12 @@ a {
 
 /* Computer Screen Content */
 .screen-text {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
 }
 
 .screen-button {
   font-size: 2vw;
-  border-radius: 5% 2%;
+  border-radius: 10px;
 }
 
 /* Self-Description */
@@ -83,12 +83,30 @@ a {
 }
 
 .tech-card-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 17px 15%;
+  padding: 5% 15%;
 }
 
-/* PROJECTS PAGE */
+/* Contact-box */
+.contact-box {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact-box {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-box {
+    width: 100%;
+  }
+}
+
+/* === PROJECTS PAGE === */
 /* Featured Panel */
 #featured {
   border-radius: 15px;
