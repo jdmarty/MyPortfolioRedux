@@ -1,6 +1,8 @@
 import Projects from '../data/projects.js'
 
 function renderHighlight(project) {
+    //add fade in fast class
+    $('#featured').addClass('fade-in-fast');
     //image, title, and description
     $('#featured-image').attr('src', project.image.src).attr('alt', project.image.alt);
     $('#featured-title').text(project.title);
@@ -14,6 +16,8 @@ function renderHighlight(project) {
     //links
     $("#featured-repo-link").attr("href", project.repoLink);
     $("#featured-deployed-link").attr("href", project.deployedLink);
+    //remove fade in class
+    setTimeout(() => $('#featured').removeClass('fade-in-fast'), 1000)
 }
 
 function renderCards(projects) {
@@ -44,5 +48,4 @@ function renderCards(projects) {
 }
 
 renderCards(Projects)
-
 renderHighlight(Projects[0])
