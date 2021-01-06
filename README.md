@@ -1,8 +1,8 @@
 # Josh's Responsive Portfolio
 
 ## Links
-- Deployed [https://jdmarty.github.io/MyPortfolio/](https://jdmarty.github.io/MyPortfolio/)
-- Repository [https://github.com/jdmarty/MyPortfolio](https://github.com/jdmarty/MyPortfolio)
+- Deployed [https://jdmarty.github.io/MyPortfolioRedux/](https://jdmarty.github.io/MyPortfolioRedux/)
+- Repository [https://github.com/jdmarty/MyPortfolioRedux]https://github.com/jdmarty/MyPortfolioRedux)
 
 ## Features
 This site was developed with Bootstrap and incorporates a simple grid system to create a responsive layout. As a rule, items that would normally display in multiple columns will display in a single column on medium or smaller screens
