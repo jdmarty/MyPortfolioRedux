@@ -40,7 +40,7 @@ const passwordGenerator = {
 const jammming = {
   title: "Jammming with JD",
   image: {
-    src: "./assets/Images/jammming_codecademy.PNG",
+    src: "./assets/Images/jammming_codecademy.png",
     alt: "Jamming with JD",
   },
   description:
