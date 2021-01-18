@@ -121,15 +121,33 @@ a {
 /* Featured Tech Buttons */
 #featured-tech-cont {
   margin: 15px auto;
-  font-size: 1.25em;
+  font-size: 0.85em;
 }
 
 .featured-tech {
-  padding: 10px;
   margin: 12px;
-  text-align: center;
-  border: 1px solid #ccdcde;
   border-radius: 15px;
+  color: #fff;
+}
+
+.featured-tech-span {
+  padding: 5px 10px;
+  font-weight: 700;
+  font-family:'Tahoma', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yelp {
+  background-color: #C41200
+}
+
+.handlebars {
+  color: #fff;
+  background-color: #df691a;
+}
+
+.spotify {
+  color: #191414;
+  background-color: #1DB954;
 }
 
 .featured-link {

@@ -7,11 +7,15 @@ function renderHighlight(project) {
     $('#featured-image').attr('src', project.image.src).attr('alt', project.image.alt);
     $('#featured-title').text(project.title);
     $('#featured-description').text(project.description);
-    if (project.descriptionCont) $("#featured-description-cont").text(project.descriptionCont);
+    if (project.descriptionCont) {
+        $("#featured-description-cont").text(project.descriptionCont);
+    } else {
+        $("#featured-description-cont").empty();
+    }
     //technology
     $("#featured-tech-cont").empty();
     project.tech.forEach(tech => {
-        const techItem = $('<span>').addClass('featured-tech bg-primary').text(tech)
+        const techItem = $(tech).addClass('featured-tech');
         $("#featured-tech-cont").append(techItem);
     });
     //links
