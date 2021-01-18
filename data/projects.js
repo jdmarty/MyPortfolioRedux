@@ -69,8 +69,8 @@ const jammming = {
 const dreamTeam = {
   title: "Dream Team",
   image: {
-    src: "./assets/Images/DreamTeam.png",
-    alt: "Jamming with JD",
+    src: "./assets/Images/DreamTeam.PNG",
+    alt: "Dream Team",
   },
   description:
     "Full stack application that allows users to create teams of their favorite NBA players and run a simulated game between them.",
