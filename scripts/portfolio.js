@@ -7,6 +7,7 @@ function renderHighlight(project) {
     $('#featured-image').attr('src', project.image.src).attr('alt', project.image.alt);
     $('#featured-title').text(project.title);
     $('#featured-description').text(project.description);
+    if (project.descriptionCont) $("#featured-description-cont").text(project.descriptionCont);
     //technology
     $("#featured-tech-cont").empty();
     project.tech.forEach(tech => {

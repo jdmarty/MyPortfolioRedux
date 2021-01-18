@@ -50,6 +50,22 @@ const jammming = {
   deployedLink: "http://jammmingwithjd.surge.sh/",
 };
 
-const Projects = [nutriSpot, codeQuiz, jammming, passwordGenerator]
+const dreamTeam = {
+  title: "Dream Team",
+  image: {
+    src: "./assets/Images/DreamTeam.png",
+    alt: "Jamming with JD",
+  },
+  description:
+    "Full stack application that allows users to create teams of their favorite NBA players and run a simulated game between them.",
+  descriptionCont: "Sample Account | email: guest@gmail.com | password: P@ssword12345",
+  tech: ["MySQL", "Node", "Express", "Handlebars"],
+  repoLink: "https://github.com/jdmarty/DreamTeamRedux",
+  deployedLink: "https://dreamteamsim.herokuapp.com/login",
+};
+
+
+
+const Projects = [dreamTeam, nutriSpot, codeQuiz, jammming]
 
 export default Projects
