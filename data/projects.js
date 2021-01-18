@@ -69,7 +69,7 @@ const jammming = {
 const dreamTeam = {
   title: "Dream Team",
   image: {
-    src: "assets/Images/dreamTeam.png",
+    src: "assets/Images/dreamTeam.PNG",
     alt: "Dream Team",
   },
   description:
