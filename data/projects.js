@@ -51,7 +51,7 @@ const passwordGenerator = {
 const jammming = {
   title: "Jammming with JD",
   image: {
-    src: "./assets/Images/jammming_codecademy.png",
+    src: "assets/Images/jammming_codecademy.png",
     alt: "Jamming with JD",
   },
   description:
@@ -69,7 +69,7 @@ const jammming = {
 const dreamTeam = {
   title: "Dream Team",
   image: {
-    src: "./assets/Images/DreamTeam.PNG",
+    src: "assets/Images/DreamTeam.png",
     alt: "Dream Team",
   },
   description:
