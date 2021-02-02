@@ -24,7 +24,7 @@ const nutriSpot = {
     alt: "Nutrispot",
   },
   description:
-    "Application that uses the Spoonacular and Yelp API to combine a healthy recipe search and a search for local restaurants",
+    "Front End Application that uses the Spoonacular and Yelp API to combine a healthy recipe search and a search for local restaurants",
   tech: [
     '<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>',
     '<img alt="jQuery" src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>',
